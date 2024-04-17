@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    height: 100%;
+    width: 100%;
+    font: 18px Arial;
+}
+.header {
+    background-color: deepskyblue;
+}
+.header__title {
+    height: 10vh;
+    text-align: center;
+    line-height: 10vh;
+}
+.content {
+    height: 80vh;
+    background-color: skyblue;
+}
+.footer {
+    background-color: deepskyblue;
+    height: 10vh;
+}
+.footer__name, .footer__year {
+    height: 5vh;
+    text-align: center;
+    line-height: 5vh;
+}
